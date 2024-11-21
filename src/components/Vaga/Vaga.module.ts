@@ -26,7 +26,7 @@ export const VagaTitle = styled.h3`
   margin-bottom: 16px;
 `
 
-export const VagaLink = styled.a`
+export const VagaLink = styled('a')`
   border-color: ${colors.secondary};
   background-color: ${colors.primary};
   color: ${colors.secondary};

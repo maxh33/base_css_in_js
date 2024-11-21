@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import colors from '../../themes/colors'
 
-export const Form = styled.form`
+export const Form = styled('form')`
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: ${colors.secondary};
@@ -10,7 +10,7 @@ export const Form = styled.form`
   margin-top: 40px;
 `
 
-export const SearchButton = styled.button`
+export const SearchButton = styled('button')`
   background-color: ${colors.primary};
   border: 1px solid ${colors.primary};
   height: 40px;
@@ -21,7 +21,7 @@ export const SearchButton = styled.button`
   cursor: pointer;
 `
 
-export const Field = styled.input`
+export const Field = styled('input')`
   padding: 0 16px;
   outline-color: ${colors.primary};
 `

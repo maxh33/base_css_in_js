@@ -2,7 +2,7 @@ import { Header, Title } from './Cabecalho.module'
 
 const Cabecalho = () => (
   <Header>
-    <Title>EBAC Jobs</Title>
+    <Title>Joiasmax Jobs</Title>
   </Header>
 )
 
